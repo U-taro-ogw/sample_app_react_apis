@@ -1,10 +1,10 @@
 package router
 
 import (
+	"github.com/U-taro-ogw/gin_todo/src/controllers"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
-	"github.com/U-taro-ogw/gin_todo/src/controllers"
 )
 
 func Router(dbConm *gorm.DB) {

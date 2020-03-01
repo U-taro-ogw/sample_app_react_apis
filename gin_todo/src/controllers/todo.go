@@ -1,9 +1,9 @@
 package controllers
 
 import (
+	"github.com/U-taro-ogw/gin_todo/src/models"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
-	"github.com/U-taro-ogw/gin_todo/src/models"
 	"net/http"
 )
 

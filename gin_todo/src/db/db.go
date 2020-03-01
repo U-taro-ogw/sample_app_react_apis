@@ -1,9 +1,9 @@
 package db
 
 import (
+	"github.com/U-taro-ogw/gin_todo/src/models"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"github.com/U-taro-ogw/gin_todo/src/models"
 	"os"
 )
 
